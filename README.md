@@ -10,6 +10,18 @@ DATCH permits real-time overlay comparisons of cultural heritage against earlier
 
 This repository is the offical DATCH2 **documentation** which has currently been developed in the [**Unity Real-Time Development Platform**](https://unity.com/) for the [**Microsoft HoloLens 2**](https://www.microsoft.com/en-au/hololens). For general information about the project visit [**https://sciences.ucf.edu/anthropology/datch/**](https://sciences.ucf.edu/anthropology/datch/).
 
+# Getting Started
+
+## Installation
+
+You need [todo] ....
+
+## Documentation
+
+Here are some useful documentation links:
+- Getting started guide: [todo]...
+- DATCH2 Functionality: [todo]...
+
 
 ---
 #### Major Funding
