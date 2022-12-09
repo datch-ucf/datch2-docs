@@ -41,7 +41,9 @@ Bugs are logged using the github issue system. To report a bug, simply [**open a
 
 
 ---
-#### Major Funding
+
+# Major Funding
+
 The [**Documenting and Triaging Cultural Heritage (DATCH): Damage Assessment and Digital Preservation**](https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HAA-277278-21) has been made possible in part by a major grant from the [**National Endowment for the Humanities**](https://www.neh.gov/): Democracy demands wisdom.
 - [**Digital Humanities Advancement Grants**](https://www.neh.gov/grants/odh/digital-humanities-advancement-grants) (Level III - [**HAA-277278-21**](https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HAA-277278-21))
 - [**Digital Humanities Advancement Grants**](https://www.neh.gov/grants/odh/digital-humanities-advancement-grants) (Level II - [**HAA-287908-22**](https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HAA-287908-22))
