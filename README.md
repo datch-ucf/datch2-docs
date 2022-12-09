@@ -52,7 +52,7 @@ The [**Documenting and Triaging Cultural Heritage (DATCH): Damage Assessment and
 ![](images/neh-scaled2.png)
 
 
-##### Partners
+### Partners
 
 This project draws on research supported by the [**Social Sciences and Humanities Research Council**](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx).
 
