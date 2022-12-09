@@ -12,6 +12,7 @@ This repository is the offical DATCH2 **documentation** which has currently been
 
 
 ---
-##### Major Funding
+#### Major Funding
 The [**Documenting and Triaging Cultural Heritage (DATCH): Damage Assessment and Digital Preservation**](https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HAA-277278-21) has been made possible in part by a major grant from the [**National Endowment for the Humanities**](https://www.neh.gov/): Democracy demands wisdom.
+
 ![](images/neh-scaled2.png)
