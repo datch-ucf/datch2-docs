@@ -18,7 +18,7 @@ For general information about the project visit [**https://sciences.ucf.edu/anth
 
 ## Installation
 
-You need [todo] ....
+See the [Deployment Directions](/DATCH%20Deployment%20Directions.md) page for download and installation instructions.
 
 ## Documentation
 
