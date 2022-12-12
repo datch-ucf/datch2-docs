@@ -4,7 +4,9 @@
 > The basic steps for getting started with using DATCH
 
 ## Open the Application
-1. Go to the HoloLens main menu. <img src="images/hololens_menu_main.jpg" width="500">
+<img src="images/hololens_menu_main.jpg" width="500">
+
+1. Go to the HoloLens main menu. 
 	- Hold palm up, facing the headset
 	- Click the Windows logo that appears on the wrist
 2. On the HoloLens menu, click "All Apps"
