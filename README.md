@@ -18,12 +18,12 @@ For general information about the project visit [**https://sciences.ucf.edu/anth
 
 ## Installation
 
-See the [Deployment Directions](/DATCH%20Deployment%20Directions.md) page for download and installation instructions.
+See the [**Deployment Directions**](/DATCH%20Deployment%20Directions.md) page for download and installation instructions.
 
 ## Documentation
 
 Here are some useful documentation links:
-- Getting started guide: [todo]...
+- [**Getting Started Guide**](/Getting%20Started.md)
 - DATCH2 Functionality: [todo]...
 
 
