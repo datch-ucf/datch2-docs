@@ -15,7 +15,8 @@
 ## Basic Controls
 1. The "Welcome to DATCH" and "Getting Started" text should display on screen.
 2. Hold left hand up (facing the HoloLens) to display the main menu
-	- *Note: By default, the application is oriented for right-handed users (left-hand-constrained menu), but the setting can be changed using the "Accessibility" button*
+> **Note**
+> *By default, the application is oriented for right-handed users (left-hand-constrained menu), but the setting can be changed using the "Accessibility" button*
 
 ### Menu
 <img src="images/menu_panels.gif" width="500">

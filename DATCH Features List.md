@@ -1,9 +1,12 @@
+# DATCH Features List
+
 > ## Summary
 > Below is a list of  all available features in the most updated version of DATCH.
 
 ### TOOLS:
 #### **Free Draw**
 Enables unrestricted freehand drawing
+
 <img src="images/drawing_freedraw.gif" width="500"> 
 	
 	**Steps for use:** 
@@ -15,6 +18,7 @@ Enables unrestricted freehand drawing
 
 #### **Line**
 Enables drawing using line-connected points
+
 <img src="images/drawing_line.gif" width="500"> 
 	
 	**Steps for use:**
@@ -29,6 +33,7 @@ Enables drawing using line-connected points
 
 #### **Curve**
 Enables drawing using floating splines
+
 <img src="images/drawing_curve.gif" width="500"> 
 
 	**Steps for use:** 
@@ -43,6 +48,7 @@ Enables drawing using floating splines
 
 #### **Drawing Plane**
 Display a 2D grid in front of user for drawing on flat surfaces
+
 <img src="images/drawing_plane_auto_orientation.gif" width="500"> 
 <img src="images/gridpoint_snapping.gif" width="500"> 
 	
@@ -145,6 +151,7 @@ Import an image into the scene from HoloLens 2 internal storage
 
 
 #### **Toggle Mesh**
+
 <img src="images/mesh_spatial.gif" width="500"> 
 
 Show a wireframe outline of the environment (wireframe or pulse mesh)
@@ -154,6 +161,7 @@ Show a wireframe outline of the environment (wireframe or pulse mesh)
 
 #### **Precision Settings**
 ##### Shape Rotation Snapping
+
 <img src="images/snapping_shape_rotation.gif" width="500"> 
 
 Allow shapes to rotate by a set increment for more precise rotation
