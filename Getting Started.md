@@ -4,7 +4,7 @@
 > The basic steps for getting started with using DATCH
 
 ## Open the Application
-<img src="images/hololens_menu_main.jpg" width="500">
+<img src="images/hololens_open_app.gif" width="500">
 
 1. Go to the HoloLens main menu. 
 	- Hold palm up, facing the headset
@@ -18,7 +18,7 @@
 	- *Note: By default, the application is oriented for right-handed users (left-hand-constrained menu), but the setting can be changed using the "Accessibility" button*
 
 ### Menu
-<img src="images/main_menu_tools_panel.png" width="300">
+<img src="images/menu_panels.gif" width="500">
 	
 - The menu is structured in three panels:
 	- **File**
@@ -58,4 +58,4 @@
 - Shapes can also be moved freely by grabbing the center and dragging as needed
 
 ## Additional Features
-- For details on the full functionality of DATCH, see the **DATCH Features List**.
+- For details on the full functionality of DATCH, see the [**DATCH Features List**](/DATCH%20Features%20List.md).
