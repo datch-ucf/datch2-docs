@@ -1,247 +1,337 @@
 # DATCH Features List
 
 > ## Summary
-> Below is a list of  all available features in the most updated version of DATCH.
+> Details on all available features in the most updated version of DATCH.
+<br></br>
+> Sections:
+<br>
+> [Menu Buttons Quick Reference](#menu-buttons-quick-reference)
+<br>
+> [Main Menu](#main-menu)
+<br>
+> [Drawing Modes](#drawing-modes)
+<br>
+> [Tools and Settings](#tools-and-settings)
+<br>
+> [Voice Commands](#voice-commands)
 
-### TOOLS:
-#### **Free Draw**
-Enables unrestricted freehand drawing
+<br></br>
+## Menu Buttons Quick Reference
+| Button                  | Description |
+| --------------------------- | ----------- | 
+| Accessibility <br> <img src="images/icon_Accessibility.png" width="50">              | Show attributes panel containing accessiblity settings        |
+| Clear All <br> <img src="images/icon_ClearAll.png" width="50">                  | Remove all tools and drawings from current scene        |
+| Close Shape <br> <img src="images/icon_CloseShape.png" width="50">                | Automatically close and fill shape        |
+| Communicate <br> <img src="images/icon_Comms.png" width="50">               | (Disabled) Communicate with other DATCH users        |
+| Create Peg Grid <br> <img src="images/icon_CreatePegGrid.png" width="50">             | Create a grid of marker pegs based on  selected settings       |
+| Default Theme <br> <img src="images/icon_Theme.png" width="50">             | Set application color theme to default      |
+| Delete <br> <img src="images/icon_Delete.png" width="50">                     | Delete selected shape or tool        |
+| Dock <br> <img src="images/icon_Dock.png" width="50">                        | Dock, undock, and hide the attributes panel         |
+| Drawing Plane <br> <img src="images/icon_DrawingPlane.png" width="50">              | Create a surface for 2D drawing        |
+| File <br> <img src="images/icon_File.png" width="50">                       | Open attributes panel for file settings        |
+| Fill <br> <img src="images/icon_Fill.png" width="50">                       | Fill selected shape with a color        |
+| GPS <br> <img src="images/icon_GPS.png" width="50">                       | Show coordinates, altitude, and satellites in GPS attributes panel        |
+| Handedness <br> <img src="images/icon_Handedness.png" width="50">                 | Change dominant hand for application use        |
+| Import Image <br> <img src="images/icon_ImportImage.png" width="50">                | Import an image saved on the headset        |
+| Indoor Theme <br> <img src="images/icon_Indoor.png" width="50">                | Set application color theme to indoor        |
+| Log <br> <img src="images/icon_Log.png" width="50">                        | Add text to log file        |
+| Map <br> <img src="images/icon_Map.png" width="50">                        | Show map                    |
+| Measuring Cube <br> <img src="images/icon_MeasuringCube.png" width="50">             | Create a measuring cube for measuring in three dimensions        |
+| Measuring Tape <br> <img src="images/icon_MeasuringTape.png" width="50">             | Create measuring tape for measuring two dimensions      |
+| Measuring Tools <br> <img src="images/icon_MeasuringTools.png" width="50">            | Open measuring tools panel        |
+| New File <br> <img src="images/icon_NewFile.png" width="50">                        | Open a blank, new file        |
+| Open File <br> <img src="images/icon_Open.png" width="50">                      | Open an existing file        |
+| Outdoor Theme <br> <img src="images/icon_Outdoor.png" width="50">              | Set application color theme to outdoor        |
+| Parallel Drawing Plane <br> <img src="images/icon_ParallelDrawingPlane.png" width="50">     | Reposition drawing plane to be parallel to the floor        |
+| Peg Grid <br> <img src="images/icon_PegGrid.png" width="50">                   | Open peg grid attributes panel        |
+| Peg Grid Dimensions <br> <img src="images/icon_PegGridDimensions.png" width="50">         | Set the dimensions of a peg grid        |
+| Perpendicular Drawing Plane <br> <img src="images/icon_PerpendicularDrawingPlane.png" width="50"> | Reposition drawing plane to be perpendicular to the floor        |
+| Pin Menu <br> <img src="images/icon_Pin.png" width="50">                   | Pin the menu to a point in space        |
+| Precision <br> <img src="images/icon_Precision.png" width="50">                  | Open attributes panel for precision settings (e.g. rotation snapping)       |
+| Save File <br> <img src="images/icon_SaveFile.png" width="50">                      | Save current file        |
+| Tag <br> <img src="images/icon_Tag.png" width="50">                        | Create a tag for leaving a note in space        |
+| Theme <br> <img src="images/icon_Theme.png" width="50">                      | Open attributes panel for application color theme settings        |
+| Toggle Mesh <br> <img src="images/icon_ToggleMesh.png" width="50">                | Show/Hide the spatial mesh       |
+| Undo <br> <img src="images/icon_Undo.png" width="50">                       | Undo last action performed on selected shape        |
+---
 
-<img src="images/drawing_freedraw.gif" width="500"> 
+<br></br>
+
+## Main Menu
+### Primary Buttons
+- This section of the menu is comprised of two semicircles made up of buttons.
+	- Inner Semicircle - Drawing mode buttons
+	- Outer Semicircle - Tools and Settings buttons
+
+### Attributes Panel
+- Displays additional settings for the drawing mode or tool that is currently in use. 
+- Panel Dock
+	- Hide the Attributes Panel by tapping the dock button.
+	- Undock the Attributes Panel by grabbing it and dragging it away from the dock.
+	- Dock the Attributes Panel by grabbing it and placing it near the dock button (panel will snap back into place).
+
+### Pin Menu
+- Pins the menu in space in front of the user 
+
+### Pen Distance Slider
+- Changes the length of the pen tip for drawing along the surfaces of objects and structures that should not be disturbed
+
+### Pen
+- A pen appears in hand while pinching to visually indicate when the user is drawing.
+
+<br></br>
+## Drawing Modes 
+### Free Draw
+- Draw unrestricted freehand shapes
+
+	<img src="images/drawing_freedraw.gif" width="500"> 
+		
+		Steps:
+		1. Tap the Free Draw button
+		2. Pinch and drag in midair to draw
+		
+		Note: Close a shape by bringing the starting point (white) near the end point (blue).
+
+
+### Line
+- Draw polyagonal shapes by creating points connected by straight lines.
+
+	<img src="images/drawing_line.gif" width="500"> 
+		
+		Steps:
+		1. Tap the Line button
+		2. Pinch in midair to create a point, then pinch another area in space to create an additional connected point
+		3. Pinch and drag any of the grab points to reposition them 
+		
+		Note: Close the shape by bringing a point near another point.
+
+### Curve
+- Draw curved shapes using floating splines
+
+	<img src="images/drawing_curve.gif" width="500"> 
+
+		Steps:
+		1. Tap the Curve button
+		2. Pinch in midair to create a curve with 4 points
+		3. Pinch and drag any of the points to reshape the curve 
+		
+		Note: Close the shape by bringing a point near another point.
+<br></br>
+
+### *Drawing Attributes Panel*
+- ### Color Picker
+	- Before drawing, drag finger along the color picker gradient or tap one of the color swatches to select a color for the next drawn line.
+- ### Line Weight Slider
+	- Drag the slider up or down to increase or decrease the width of the next drawn line.
+- ### Close Shape
+	- Automatically close a partially-drawn shape and fill it with a color
+
+		<img src="images/auto_close_shape.gif" width="500"> 
+
+			Steps:
+			1. Select an unclosed shape
+			2. Tap the "Close Shape" button
+
+<br></br>
+## Tools and Settings
+### File
+- Opens the File Attributes Panel
+
+<br></br>
+
+### *File Attributes Panel:*
+- ### New
+	- Create a new empty DATCH file with no drawings or tools present in the space
+
+- ### Open
+	- Open a previously created DATCH file
+
+- ### Save
+	- Save a DATCH file of the current space
+
+- ### Accessibility
+	- Opens the Accessibility menu, which includes settings for ease of use settings for the application
+	- ### Handedness
+		- Change the menu orientation for left-handed or right-handed use 
+	<img src="images/handedness.gif" width="500"> 
+
+	- ### Theme
+		- Change color palette of application for easier viewing 
+			<img src="images/theme_switching.gif" width="500"> 
+
+				Steps: 
+				1. Tap the Accessibility button
+				2. Tap the Theme button in the Attributes panel
+				2. Tap preferred theme
+- ### Import Image
+	- Import an image into the space from HoloLens 2 internal storage.
+		- Manipulation: The image can be manipulated (moved, rotated, scaled) similarly to a shape
+		- Opacity Slider: Make the image more or less translucent
+		- Hide/Show Background Checkbox: Remove or display the background of the image
+
+		<img src="images/importing_image_planes.gif" width="500"> 
+
+			Steps: 
+			1. Tap the Import Image button
+			2. Navigate through folders and tap an image to select it 
+			3. Tap Open to display the image in space	
+
+- ### Toggle Mesh
+	- Show the spatial mesh a wireframe outline of the environment calculated by the headset
 	
-	**Steps for use:** 
-	1. Select the “Free Draw” button from the Tools menu 
-	2. Pinch and drag in midair to draw
-
-> **Note**
-> *If the start point of a line is brought near the end point, the ends will connect, closing the shape.*
-
-#### **Line**
-Enables drawing using line-connected points
-
-<img src="images/drawing_line.gif" width="500"> 
-	
-	**Steps for use:**
-	1. Select the “Line” button from the Tools menu 
-	2. Point and pinch in midair to create a grab point
-	3. Point and air pinch again to create an additional grab point, which will connect to the previous with a straight line
-	4. Pinch and drag any of the grab points to reposition them 
-
-> **Note**
-> *If a grab point is brought near another grab point at the end of the line, a new line will bridge the gap between them, closing the shape.*
+		<img src="images/mesh_spatial.gif" width="500"> 
 
 
-#### **Curve**
-Enables drawing using floating splines
-
-<img src="images/drawing_curve.gif" width="500"> 
-
-	**Steps for use:** 
-	1. Select the “Curve” button from the Tools menu 
-	2. A curve with 4 yellow grab points should appear in view 
-	3. Pinch and drag any of the grab points to reshape the curve 
-	4. Curves can be connected if one grab point is brought near another 
-
-> **Note**
-> *To disconnect grab points, swiftly drag a grab point from one direction to another.*
+- ### Precision Settings
+	- Opens Precision Attributes Panel
 
 
-#### **Drawing Plane**
-Display a 2D grid in front of user for drawing on flat surfaces
+	- ### *Precision Attributes Panel:*
+		- ### Rotation Snapping Checkbox
+			- Toggle rotation snapping, which makes shapes and tools rotate by specific degree increments
+			- Select a specific degree value (10, 15, or 45) by which shapes and tools should snap when rotating 
 
-<img src="images/drawing_plane_auto_orientation.gif" width="500"> 
-<img src="images/gridpoint_snapping.gif" width="500"> 
-	
-	**Steps for use:** 
-	1. Tap the “Drawing Plane” button to create a drawing plane
-	2. Aim near the surface of the drawing plane, pinch, and drag to draw along its surface
-> **Note**
-> *The plane can be automatically rotated perpendicular or parallel to the  ground using the respective buttons underneath the plane.*
+- ### Log
+	- Add text to a log file (.txt) to be viewed later for future reference.
 
+		<img src="images/log_text_file.gif" width="500"> 
 
+			Steps: 
+			1. Tap the Log button
+			2. Select a save location for the log file (create a new log file or overwrite existing log file)
+			3. Type text using the system keyboard, then close the keyboard
+			4. After use, connect the HoloLens 2 to a PC and locate the log file inside the previously-selected folder
 
-#### **Undo**
-Undo previous action 
-	**Steps for use:** 
-	1. Tap “Undo” button immediately after unwanted action is performed
+<br></br>
 
-#### **Delete**
-Delete selected shape (highlighted by a blue box)
-	**Steps for use:** 
-	1. Hover over a shape to select it (the shape will be highlighted in blue when selected)
-	2. Tap the "Delete" button
+### Clear All
+- Erase all shapes and tools in the space 
 
-#### **Peg Markers**
-Create a grid of marker pegs 
+### Delete
+- Delete selected shape (highlighted by a blue box)
+
+### Undo
+- Undo previous action 
+
+### Fill
+- Fill a closed shape with a color 
+
+	<img src="images/fill.gif" width="500"> 
+
+		Steps:
+		1. Select a shape by touching it or hovering over it
+		2. Tap the Fill button to fill the selected shape with current fill color
+
+### Drawing Plane
+- Display a 2D grid in front of user for drawing on flat surfaces
+
+- ### Drawing Plane Attributes Panel:
+	- ### Draw On Plane Checkbox
+		- Toggle on to draw on the surface of the drawing plane
+		- Toggle off to activate drawing plane manipulation handles
+	- ### GridPoint Snapping Checkbox	
+		- Allow lines on drawing plane to snap to the grid's intersection points for more precise drawings
+
+	<img src="images/gridpoint_snapping.gif" width="500"> 
+
+		Steps:
+		1. Tap the Gridpoint Snapping checkbox (ensure that the Draw on Plane checkbox is toggled on)
+		2. Drawings will snap to the intersection points of the drawing plane
+
+	- ### Perpendicular Button
+		- Automatically rotate the drawing plane to be situated perpendicular to the ground
+	- ### Parallel Button
+		- Automatically rotate the drawing plane to be situated parallel to the ground
+
+	<img src="images/drawing_plane_auto_orientation.gif" width="500"> 
+
+		Steps:
+		1. Tap the Drawing Plane button to create a drawing plane
+		2. Aim near the surface of the drawing plane, pinch, and drag to draw along its surface
+
+### Tag
+- Leave a physical note at a specific location or on a drawing
+	- Keyboard Button
+		- Open a keyboard to change the text inside the tag 
+	- Link/Unlink
+		- Make the anchor point of the tag snap or detach from a shape it is currently touching
+	- Delete
+		- Delete tag from the space
+
+	<img src="images/tagging.gif" width="500"> 
+
+		Steps:
+		1. Tap the "Tag" button
+		2. Grab empty space near the tag to move the entire tag or position the label or anchor individually
+		3. Tap the keyboard button to enter a short message on the tag
+
+### Peg Grid
+Create a grid of marker pegs with specific dimensions
 
 <img src="images/peg_markers.gif" width="500"> 
 
+	Steps:
+	1. Tap the Peg Grid button
+	2. Tap the Dimensions button and enter the desired number of pegs on each row and column (Format is "# x #").
+	3. Tap the Create button to generate a grid in space
+	4. Edit the position and rotation of the peg grid using manipulation handles
+	5. Touch a peg in the grid to mark it for future reference (indicated by a change in color)
 
-	**Steps for use:** 
-	1. Tap the peg markers button
-	2. Choose grid dimensions and spacing using arrow buttons and sliders 
-	3. Tap the rotate buttons and pinch and drag the miniature (top-down view) peg grid in the Attributes menu to affect the placement of the larger grid
-	4. Touch a peg to mark it for future reference
+### *Peg Grid Attributes Panel*
+- ### Grid Dimensions
+	- Tap to enter the number of rows and columns in a grid (preview grid will display first)
+- ### Rows Spacing Slider
+	- Drag to set the distance between each row in a grid
+- ### Cols Spacing Slider
+	- Drag to set the distance between each column in a grid
+- ### Create Grid
+	- When grid dimensions are set, create a grid in place of the preview grid
 
-#### **Fill**
-Fill a closed shape with a color 
+<br></br>
 
-<img src="images/fill.gif" width="500"> 
+### Measuring Tools
+- Open the Measuring Tools Attributes Panel
+### *Measuring Tools Attributes Panel*
+- ### Measuring Cube
+	- Generate a tool for measuring 3D (height, width, depth) shapes and structures 
+		<img src="images/measuring_cube.gif" width="500"> 
 
-	**Steps for use:** 
-	1. Select a shape by pinching one of its points 
-	2. Tap the “Fill” button to fill selected shape with current fill color
+			Steps:
+			1. Tap the Measuring Cube button
+			2. Resize and manipulate the measuring cube by pinching its handles; move it by grabbing and dragging it from its center
+- ### Measuring Tape
+	- Generate a tool for measuring 2D (height, width) shapes and distances
+		<img src="images/measuring_tape.gif" width="500"> 
 
-#### **Measuring Tools**
-##### Measuring Cube
-Generate a tool for measuring 3D shapes and structures
+			Steps: 
+			1. Tap Measuring Tape button
+			2. Change the length of the measuring tape by grabbing one of its endpoints; move it by grabbing and dragging it from its center
 
-<img src="images/measuring_cube.gif" width="500"> 
+### GPS
+- Open GPS Attributes Panel and activate Bluetooth GPS functionality if available (rover and base must be powered on)
+<br></br>
 
-	**Steps for use:** 
-	1. Tap the "Measuring Tools" button
-	2. Tap the "Measuring Cube" button
-	3. Resize and manipulate the measuring cube by pinching its handles; move it by grabbing and dragging it from the center
+### *GPS Attributes Panel*
+- ### Map
+	- Display a floating map panel that displays icons for the objects present in space
+<br></br>
 
-> **Note**
-> *Multiple measuring cubes can be created and deleted.*
-
-##### Measuring Tape
-Generate a tool for measuring 2D shapes and distances (multiple measuring tapes can be created)
-
-<img src="images/measuring_tape.gif" width="500"> 
-
-	**Steps for use:** 
-	1. Tap the "Measuring Tools" button
-	2. Tap the "Measuring Tape" button
-	3. Change the length of the measuring tape by pinching one of its endpoints; move it by grabbing and dragging it from the center
-
-### FILE:
-#### **Clear All**
-Erase all drawings in the scene 
-	**Steps for use:** 
-	1. Tap the “Clear All” button
-
-#### **Log to Text File**
-Add a timestamp to a log file for future reference
-
-<img src="images/log_text_file.gif" width="500"> 
-
-	**Steps for use:** 
-	1. Tap the “Log to Text File” button
-	2. Select the folder in which the log file should be saved in the internal storage of the HoloLens
-	3. After use, connect the HoloLens 2 to a PC and locate the log file inside the previously-selected folder
-
-#### **Import Image**
-Import an image into the scene from HoloLens 2 internal storage 
-
-> **Note**
-> *Images must be saved to the internal storage of the HoloLens before using this feature.*
-
-<img src="images/importing_image_planes.gif" width="500"> 
-
-	**Steps for use:** 
-	1. Tap the "Import Image" button
-	2. Tap the folder containing any previously saved images
-	3. Select an image and tap open
-	4. The image will appear directly in front of the user
-		- The image can be manipulated (moved, rotated, scaled) similarly to a shape
-		- Change the image opacity using the opacity slider
-		- Remove the background of the image by clicking the "Hide Background" checkbox under the opacity slider
-
-
-#### **Toggle Mesh**
-
-<img src="images/mesh_spatial.gif" width="500"> 
-
-Show a wireframe outline of the environment (wireframe or pulse mesh)
-	
-	**Steps for use:** 
-	1. Click the “Toggle Mesh” button to turn the wireframe environment mesh on and off
-
-#### **Precision Settings**
-##### Shape Rotation Snapping
-
-<img src="images/snapping_shape_rotation.gif" width="500"> 
-
-Allow shapes to rotate by a set increment for more precise rotation
-	
-	**Steps for use:**
-	1. Tap the "Precision Settings" button
-	2. Tap the "Rotation Snapping" checkbox to enable rotation snapping
-	3. Select an increment at which to rotate all shapes (10, 15, or 45 degrees)
-	4. While rotation snapping is enabled, shapes will snap to rotate by the selected increment
-
-##### **Precision Settings: Drawing Plane Gridpoint Snapping**
-Allow lines on drawing plane to snap to the grid's intersection points for more precise drawings
-
-<img src="images/gridpoint_snapping.gif" width="500"> 
-
-	**Steps for use:**
-	1. Tap the "Precision Settings" button
-	2. Tap the "Drawing Plane Gridpoint Snapping" checkbox to enable rotation snapping
-	3. While gridpoint snapping is enabled, drawings will snap to the intersection points of the drawing plane
-
-#### **Accessibility**
-##### Handedness
-Change the menu for left-handed or right-handed use 
-
-<img src="images/handedness.gif" width="500"> 
-
-	**Steps for use:** 
-	1. Tap the “Handedness” button
-
-##### Theme
-Change color palette of application for easier viewing 
-
-<img src="images/theme_switching.gif" width="500"> 
-
-	**Steps for use:** 
-	1. Tap the “Theme” button in the File menu 
-	2. Select preferred theme in Attributes menu
-
-#### **Manually Close Shape**
-Connect the endpoints of the selected shape (if unclosed) and fill it with a color
-
-> **Note**
-> *This feature reduces the additional steps of creating a shape, closing it, and filling it manually.*
-
-
-<img src="images/auto_close_shape.gif" width="500"> 
-
-	**Steps for use:** 
-	1. Select an unclosed shape
-	2. Tap the "Close Shape" button
-
-#### **Link Points**
-Connect the points on different shapes
-
-<img src="images/point_linking.gif" width="500"> 
-
-	**Steps for use:
-	1. Select a shape
-	2. Grab a point contained within a selected shape
-	3. Bring a point on the selected shape near a point on another shape
-
-#### **Voice Commands**
-- **Pin Menu**: Displays main menu that follows the user’s view 
-
-> **Note**
-> *This action can also be achieved by pressing the Pin button (DATCH logo).*
-
-- **Hide Menu**: Closes main menu
-
-- **Take a Picture**: Take a screenshot of current view 
-> **Note**
-> *This feature will later be available through the Screenshot button, which is currently disabled. A screenshot can also be taken by pressing the two buttons on the right-hand side of the headset. These pictures will save directly to the HoloLens 2.*
-
-- **Switch Hand**: Change the menu to left-handed or right-handed use (Handedness)
-> **Note**
-> *Right handed use (menu constrained to left palm) is default.*
-
-
-- **Toggle Mesh**: Toggle the wireframe mesh or pulse mesh
-
-- **Undo**: Undo previous action
-
-
+## Voice Commands
+### Clear All
+- Remove all shapes and tools from the space
+### Pin Menu
+- Pins the menu in space in front of the user  
+### Unpin Menu
+- Lock menu to palm
+### Switch Hand 
+- Change the menu to left-handed or right-handed use (right-handed use, with menu constrained to left palm, is default)
+### Toggle Mesh
+- Toggle the wireframe spatial mesh on or off
+### Undo
+- Undo a previous action 
+### Call Menu
+- Bring menu into view
+### Take a Picture
+- Take a screenshot of the current view
+	- Button shortcut: Press the two buttons on the right-hand side of the HoloLens 2
+	- Voice command: "Take a picture"

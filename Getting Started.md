@@ -18,45 +18,69 @@
 > **Note**
 > *By default, the application is oriented for right-handed users (left-hand-constrained menu), but the setting can be changed using the "Accessibility" button*
 
-### Menu
-<img src="images/menu_panels.gif" width="500">
-	
-- The menu is structured in three panels:
-	- **File**
-		- Includes basic application-functionalities, such as importing, undoing, and changing accessibility features
-	- **Tools**
-		- Includes all tools necessary for drawing, manipulating shapes, and other functionalities
-	- **Attributes**
-		- Changes depending on which tool is selected
-		- Displays detailed functionalities and additional buttons for operating when in a certain mode
-- Scroll through the different panels by pressing the small arrow buttons surrounding the left and right sides of the DATCH logo button at the bottom of the menu.
+## General Use
+### Pinch
 
-> **Note**
-> *Features that are currently in progress have been disabled, as indicated by the gray, slashed button and icon.*
+- To perform a pinch, close the index finger and thumb of dominant hand, with the middle, ring, and pinky fingers held loosely outward (similar to when loosely gripping a pencil).
 
-### Start Drawing
-1. If in the default hand-orientation mode, raise right hand in front of view and pinch and drag in the air to start drawing. While drawing, a bright orange pen will appear in hand.
-	- *Note: If the start point of a line is brought near the end point, the ends will connect, closing the shape.*
-2. Each drawing created becomes a shape, with a box and handles surrounding it, which can be grabbed and dragged to move, rotate, and scale the shape
-3. Select other drawing modes from the **TOOLS** panel in the menu as needed
-<img src="images/menu_arrow_buttons.png" width="500">
+### Grab
 
-> **Note**
-> The **color** and **weight** of lines can be changed by navigating to the Attributes panel when any drawing mode (freedraw, line, curve) is selected
+- To perform a grab, close the index finger and thumb of dominant hand, with the middle, ring, and pinky fingers curled inward towards the palm.
 
-### Selecting Shapes
-- A shape can be selected by hovering the dominant hand a short distance away from it
-- When processing a selection, a blue, circular bar will begin filling
-- Once filled, the dominant hand will also turn blue and the shape will indicate it is selected with a blue box outline
+### Selection
 
-## Manipulating Shapes
+- Drawings can be selected by touching the drawing or hovering a hand near the drawing until a blue selection box appears around it.
+	- Touch Selection: Touch a drawing or object to select
+	- Hover Selection: Hover a hand near a drawing or tool for a few seconds (until the loading circle on the back of the hand fills)
+
+### Manipulation
 <img src="images/Manipulation Icons.gif" width="500">
 
-- Each shape can be manipulated by pinching and moving its manipulation handles
-	- Move
-	- Rotate
-	- Scale
-- Shapes can also be moved freely by grabbing the center and dragging as needed
+- Selected objects that can be manipulated (e.g. drawings, measuring cubes, image planes, etc.) include a blue selection box with handles. These handles can be grabbed and moved for precise movement, rotation, and scale controls.
+- Selected objects can also be moved without constraint by grabbing empty space within the blue selection box and dragging.
+
+### Link Points
+- Points can be connected within the same shape or between different shapes.
+- Connect Points
+	- Bring a point on one shape near another point.
+- Disconnect Points
+	- Grab and swiftly flick a point from one direction to another.
 
 ## Additional Features
 - For details on the full functionality of DATCH, see the [**DATCH Features List**](/DATCH%20Features%20List.md).
+
+# FAQ
+## What if the application freezes or stops working?
+- ### Restart App
+	Use this approach as the first course of action.
+
+	1. Hold hand with palm in view
+	2. Tap the Windows logo that appears on wrist
+	3. After the system menu appears, tap the home icon towards the bottom of the menu
+	4. Another window with the previous active app (DATCH) will appear in space; tap the "x" in the upper-right corner to close it
+
+- ### Soft System Reset
+	Use this approach if the method above does not work. 
+
+	1. Hold hand with palm in view
+	2. Tap the Windows logo that appears on wrist
+	3. After the system menu appears, tap the user profile icon at the upper-center of the menu
+	4. A drop-down will appear; click the restart button
+
+- ### Hard System Reset
+	Use this approach as the last resort.
+
+	1. Hold the volume down and power buttons (right side of headset) for 15 seconds
+	2. Wait for the headset to restart
+	
+## What if the GPS coordinates are not displaying in the GPS attributes panel?
+
+- ### Power cycle the Base and Rover
+	1. Turn off the power switch for the battery pack connected to the Rover
+	2. Disconnect the Arduino Uno from its power source (unplug USB cable)
+	3. After a few seconds, turn the power back on for the Rover and reconnect the power to the Base
+	
+- ### Check the wiring
+	The wiring for the Base should match the setup shown below: 
+<img src="images/ArduinoConnectionsDiagram.png" width="500">
+
