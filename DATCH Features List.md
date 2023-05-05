@@ -2,62 +2,19 @@
 
 > ## Summary
 > Details on all available features in the most updated version of DATCH.
-<br></br>
+<br>
 > Sections:
 <br>
-> [Menu Buttons Quick Reference](#menu-buttons-quick-reference)
-<br>
-> [Main Menu](#main-menu)
-<br>
-> [Drawing Modes](#drawing-modes)
-<br>
-> [Tools and Settings](#tools-and-settings)
-<br>
-> [Voice Commands](#voice-commands)
+[Main Menu](#main-menu)
+[Drawing Modes](#drawing-modes)
+[Tools and Settings](#tools-and-settings)
+[Voice Commands](#voice-commands)
+[Menu Buttons Quick Reference](#menu-buttons-quick-reference)
 
-<br></br>
-## Menu Buttons Quick Reference
-| Button                  | Description |
-| --------------------------- | ----------- | 
-| Accessibility <br> <img src="images/icon_Accessibility.png" width="50">              | Show attributes panel containing accessiblity settings        |
-| Clear All <br> <img src="images/icon_ClearAll.png" width="50">                  | Remove all tools and drawings from current scene        |
-| Close Shape <br> <img src="images/icon_CloseShape.png" width="50">                | Automatically close and fill shape        |
-| Communicate <br> <img src="images/icon_Comms.png" width="50">               | (Disabled) Communicate with other DATCH users        |
-| Create Peg Grid <br> <img src="images/icon_CreatePegGrid.png" width="50">             | Create a grid of marker pegs based on  selected settings       |
-| Default Theme <br> <img src="images/icon_Theme.png" width="50">             | Set application color theme to default      |
-| Delete <br> <img src="images/icon_Delete.png" width="50">                     | Delete selected shape or tool        |
-| Dock <br> <img src="images/icon_Dock.png" width="50">                        | Dock, undock, and hide the attributes panel         |
-| Drawing Plane <br> <img src="images/icon_DrawingPlane.png" width="50">              | Create a surface for 2D drawing        |
-| File <br> <img src="images/icon_File.png" width="50">                       | Open attributes panel for file settings        |
-| Fill <br> <img src="images/icon_Fill.png" width="50">                       | Fill selected shape with a color        |
-| GPS <br> <img src="images/icon_GPS.png" width="50">                       | Show coordinates, altitude, and satellites in GPS attributes panel        |
-| Handedness <br> <img src="images/icon_Handedness.png" width="50">                 | Change dominant hand for application use        |
-| Import Image <br> <img src="images/icon_ImportImage.png" width="50">                | Import an image saved on the headset        |
-| Indoor Theme <br> <img src="images/icon_Indoor.png" width="50">                | Set application color theme to indoor        |
-| Log <br> <img src="images/icon_Log.png" width="50">                        | Add text to log file        |
-| Map <br> <img src="images/icon_Map.png" width="50">                        | Show map                    |
-| Measuring Cube <br> <img src="images/icon_MeasuringCube.png" width="50">             | Create a measuring cube for measuring in three dimensions        |
-| Measuring Tape <br> <img src="images/icon_MeasuringTape.png" width="50">             | Create measuring tape for measuring two dimensions      |
-| Measuring Tools <br> <img src="images/icon_MeasuringTools.png" width="50">            | Open measuring tools panel        |
-| New File <br> <img src="images/icon_NewFile.png" width="50">                        | Open a blank, new file        |
-| Open File <br> <img src="images/icon_Open.png" width="50">                      | Open an existing file        |
-| Outdoor Theme <br> <img src="images/icon_Outdoor.png" width="50">              | Set application color theme to outdoor        |
-| Parallel Drawing Plane <br> <img src="images/icon_ParallelDrawingPlane.png" width="50">     | Reposition drawing plane to be parallel to the floor        |
-| Peg Grid <br> <img src="images/icon_PegGrid.png" width="50">                   | Open peg grid attributes panel        |
-| Peg Grid Dimensions <br> <img src="images/icon_PegGridDimensions.png" width="50">         | Set the dimensions of a peg grid        |
-| Perpendicular Drawing Plane <br> <img src="images/icon_PerpendicularDrawingPlane.png" width="50"> | Reposition drawing plane to be perpendicular to the floor        |
-| Pin Menu <br> <img src="images/icon_Pin.png" width="50">                   | Pin the menu to a point in space        |
-| Precision <br> <img src="images/icon_Precision.png" width="50">                  | Open attributes panel for precision settings (e.g. rotation snapping)       |
-| Save File <br> <img src="images/icon_SaveFile.png" width="50">                      | Save current file        |
-| Tag <br> <img src="images/icon_Tag.png" width="50">                        | Create a tag for leaving a note in space        |
-| Theme <br> <img src="images/icon_Theme.png" width="50">                      | Open attributes panel for application color theme settings        |
-| Toggle Mesh <br> <img src="images/icon_ToggleMesh.png" width="50">                | Show/Hide the spatial mesh       |
-| Undo <br> <img src="images/icon_Undo.png" width="50">                       | Undo last action performed on selected shape        |
----
-
-<br></br>
 
 ## Main Menu
+<img src="images/diagram_main_menu.png" width="500"> 
+<img src="images/diagram_attributes_panel.png" width="500"> 
 ### Primary Buttons
 - This section of the menu is comprised of two semicircles made up of buttons.
 	- Inner Semicircle - Drawing mode buttons
@@ -335,3 +292,47 @@ Create a grid of marker pegs with specific dimensions
 - Take a screenshot of the current view
 	- Button shortcut: Press the two buttons on the right-hand side of the HoloLens 2
 	- Voice command: "Take a picture"
+
+<br></br>
+
+---
+
+<br></br>
+
+## Menu Buttons Quick Reference
+| Button                  | Description |
+| --------------------------- | ----------- | 
+| Accessibility <br> <img src="images/icon_Accessibility.png" width="50">              | Show attributes panel containing accessiblity settings        |
+| Clear All <br> <img src="images/icon_ClearAll.png" width="50">                  | Remove all tools and drawings from current scene        |
+| Close Shape <br> <img src="images/icon_CloseShape.png" width="50">                | Automatically close and fill shape        |
+| Communicate <br> <img src="images/icon_Comms.png" width="50">               | (Disabled) Communicate with other DATCH users        |
+| Create Peg Grid <br> <img src="images/icon_CreatePegGrid.png" width="50">             | Create a grid of marker pegs based on  selected settings       |
+| Default Theme <br> <img src="images/icon_Theme.png" width="50">             | Set application color theme to default      |
+| Delete <br> <img src="images/icon_Delete.png" width="50">                     | Delete selected shape or tool        |
+| Dock <br> <img src="images/icon_Dock.png" width="50">                        | Dock, undock, and hide the attributes panel         |
+| Drawing Plane <br> <img src="images/icon_DrawingPlane.png" width="50">              | Create a surface for 2D drawing        |
+| File <br> <img src="images/icon_File.png" width="50">                       | Open attributes panel for file settings        |
+| Fill <br> <img src="images/icon_Fill.png" width="50">                       | Fill selected shape with a color        |
+| GPS <br> <img src="images/icon_GPS.png" width="50">                       | Show coordinates, altitude, and satellites in GPS attributes panel        |
+| Handedness <br> <img src="images/icon_Handedness.png" width="50">                 | Change dominant hand for application use        |
+| Import Image <br> <img src="images/icon_ImportImage.png" width="50">                | Import an image saved on the headset        |
+| Indoor Theme <br> <img src="images/icon_Indoor.png" width="50">                | Set application color theme to indoor        |
+| Log <br> <img src="images/icon_Log.png" width="50">                        | Add text to log file        |
+| Map <br> <img src="images/icon_Map.png" width="50">                        | Show map                    |
+| Measuring Cube <br> <img src="images/icon_MeasuringCube.png" width="50">             | Create a measuring cube for measuring in three dimensions        |
+| Measuring Tape <br> <img src="images/icon_MeasuringTape.png" width="50">             | Create measuring tape for measuring two dimensions      |
+| Measuring Tools <br> <img src="images/icon_MeasuringTools.png" width="50">            | Open measuring tools panel        |
+| New File <br> <img src="images/icon_NewFile.png" width="50">                        | Open a blank, new file        |
+| Open File <br> <img src="images/icon_Open.png" width="50">                      | Open an existing file        |
+| Outdoor Theme <br> <img src="images/icon_Outdoor.png" width="50">              | Set application color theme to outdoor        |
+| Parallel Drawing Plane <br> <img src="images/icon_ParallelDrawingPlane.png" width="50">     | Reposition drawing plane to be parallel to the floor        |
+| Peg Grid <br> <img src="images/icon_PegGrid.png" width="50">                   | Open peg grid attributes panel        |
+| Peg Grid Dimensions <br> <img src="images/icon_PegGridDimensions.png" width="50">         | Set the dimensions of a peg grid        |
+| Perpendicular Drawing Plane <br> <img src="images/icon_PerpendicularDrawingPlane.png" width="50"> | Reposition drawing plane to be perpendicular to the floor        |
+| Pin Menu <br> <img src="images/icon_Pin.png" width="50">                   | Pin the menu to a point in space        |
+| Precision <br> <img src="images/icon_Precision.png" width="50">                  | Open attributes panel for precision settings (e.g. rotation snapping)       |
+| Save File <br> <img src="images/icon_SaveFile.png" width="50">                      | Save current file        |
+| Tag <br> <img src="images/icon_Tag.png" width="50">                        | Create a tag for leaving a note in space        |
+| Theme <br> <img src="images/icon_Theme.png" width="50">                      | Open attributes panel for application color theme settings        |
+| Toggle Mesh <br> <img src="images/icon_ToggleMesh.png" width="50">                | Show/Hide the spatial mesh       |
+| Undo <br> <img src="images/icon_Undo.png" width="50">                       | Undo last action performed on selected shape        |
