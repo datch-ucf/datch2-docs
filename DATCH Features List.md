@@ -2,11 +2,17 @@
 
 > ## Summary
 > Details on all available features in the most updated version of DATCH.
+>
+>
 > Sections:
 > [Main Menu](#main-menu)
+>
 > [Drawing Modes](#drawing-modes)
+>
 > [Tools and Settings](#tools-and-settings)
+>
 > [Voice Commands](#voice-commands)
+>
 > [Menu Buttons Quick Reference](#menu-buttons-quick-reference)
 
 
