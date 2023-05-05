@@ -5,6 +5,7 @@
 >
 >
 > Sections:
+>
 > [Main Menu](#main-menu)
 >
 > [Drawing Modes](#drawing-modes)
@@ -118,10 +119,12 @@
 	- Opens the Accessibility menu, which includes settings for ease of use settings for the application
 	- ### Handedness
 		- Change the menu orientation for left-handed or right-handed use 
-	<img src="images/handedness.gif" width="500"> 
+		
+			<img src="images/handedness.gif" width="500"> 
 
 	- ### Theme
 		- Change color palette of application for easier viewing 
+			
 			<img src="images/theme_switching.gif" width="500"> 
 
 				Steps: 
@@ -208,11 +211,11 @@
 	- ### Parallel Button
 		- Automatically rotate the drawing plane to be situated parallel to the ground
 
-	<img src="images/drawing_plane_auto_orientation.gif" width="500"> 
-
-		Steps:
-		1. Tap the Drawing Plane button to create a drawing plane
-		2. Aim near the surface of the drawing plane, pinch, and drag to draw along its surface
+		<img src="images/drawing_plane_auto_orientation.gif" width="500"> 
+		
+			Steps:
+			1. Tap the Drawing Plane button to create a drawing plane
+			2. Aim near the surface of the drawing plane, pinch, and drag to draw along its surface
 
 ### Tag
 - Leave a physical note at a specific location or on a drawing

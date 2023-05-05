@@ -35,8 +35,8 @@ If the user is on the DATCH releases email distribution list, the app can be dow
 <img src="images/hololens_menu_main.jpg" width="500">
 
 	Steps:
-	- Hold palm up, facing the headset
-	- Click the Windows logo that appears on the wrist
+	1. Hold palm up, facing the headset
+	2. Click the Windows logo that appears on the wrist
 
 <b>6. On the HoloLens menu, click "All Apps"</b>
 
@@ -77,8 +77,8 @@ To access the most recent app build using this method, the user can directly acc
 <img src="images/hololens_menu_main.jpg" width="500">
 	
 	Steps:
-	- Hold palm up, facing the headset
-	- Click the Windows logo that appears on the wrist
+	1. Hold palm up, facing the headset
+	2. Click the Windows logo that appears on the wrist
 
 <b>9. On the HoloLens menu, click "All Apps"</b>
 
