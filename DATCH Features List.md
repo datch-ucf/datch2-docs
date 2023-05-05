@@ -2,25 +2,27 @@
 
 > ## Summary
 > Details on all available features in the most updated version of DATCH.
-<br>
 > Sections:
-<br>
-[Main Menu](#main-menu)
-[Drawing Modes](#drawing-modes)
-[Tools and Settings](#tools-and-settings)
-[Voice Commands](#voice-commands)
-[Menu Buttons Quick Reference](#menu-buttons-quick-reference)
+> [Main Menu](#main-menu)
+> [Drawing Modes](#drawing-modes)
+> [Tools and Settings](#tools-and-settings)
+> [Voice Commands](#voice-commands)
+> [Menu Buttons Quick Reference](#menu-buttons-quick-reference)
 
 
 ## Main Menu
-<img src="images/diagram_main_menu.png" width="500"> 
-<img src="images/diagram_attributes_panel.png" width="500"> 
 ### Primary Buttons
+
+<img src="images/diagram_main_menu.png" width="500"> 
+
 - This section of the menu is comprised of two semicircles made up of buttons.
 	- Inner Semicircle - Drawing mode buttons
 	- Outer Semicircle - Tools and Settings buttons
 
 ### Attributes Panel
+
+<img src="images/diagram_attributes_panel.png" width="500"> 
+
 - Displays additional settings for the drawing mode or tool that is currently in use. 
 - Panel Dock
 	- Hide the Attributes Panel by tapping the dock button.

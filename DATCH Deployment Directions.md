@@ -14,19 +14,24 @@
 If the user is on the DATCH releases email distribution list, the app can be downloaded through a link. When a new release is available, the user will receive an email with a link to the build file.
 
 <b>1. In the HoloLens 2 main menu, open the Microsoft Edge web browser.</b>
+
 <img src="images/hololens_menu_ms_edge.jpg" width="500"> 
 
 <b>2. Navigate to the email website from which the app release email was sent.</b>
+
 <img src="images/hololens_outlook.jpg" width="500"> 
 <img src="images/deployment_link.jpg" width="500">
 
 <b>3. Open the email and click "Install". Login to App Center and click the download link.</b>
+
 <img src="images/appcenter_install.jpg" width="500">
 
 <b>4. The app should begin downloading. After the download is complete, click "Open file" and follow any directions prompted on the screen to complete the installation process.</b>
+
 <img src="images/appcenter_download_page.jpg" width="500">
 
 <b>5. After the app installs, go back to the HoloLens main menu.</b>
+
 <img src="images/hololens_menu_main.jpg" width="500">
 
 	Steps:
@@ -42,26 +47,33 @@ If the user is on the DATCH releases email distribution list, the app can be dow
 To access the most recent app build using this method, the user can directly access the builds list by logging into Visual Studio App Center. The user may still receive email notifications for new releases, but there is no need to navigate to the download through the link provided in the email.
 
 <b>1. In HoloLens: Open main menu.</b>
+
 <img src="images/hololens_menu_main.jpg" width="500">
 
 <b>2. Open Microsoft Edge app.</b>
+
 <img src="images/hololens_menu_ms_edge.jpg" width="500">
 
 <b>3. Navigate to the [Visual Studio App Center website](https://appcenter.ms/apps) and log in.</b>
+
 <img src="images/appcenter_main_page.png" width="500">
 
 <b>4. A webpage showing the latest release should be displayed under "My Apps".
+
 <img src="images/appcenter_releases_page.png" width="500"></b>
 
 <b>5. Click the app to navigate to a download link (in Microsoft Edge, the link will open as a QR code). Click "DOWNLOAD"</b>
+
 <img src="images/appcenter_download_page.png" width="500">
 
 <b>6. The app should begin downloading, and a downloaded file will appear in the dropdown menu at the upper-right section of the webpage.</b>
+
 <img src="images/appcenter_download_page_full.jpg" width="500">
 
 <b>7. After the download is complete, click "Open file" and follow any directions prompted on the screen to complete the installation process.</b>
 
 <b>8. After the app installs, go back to the HoloLens main menu.</b>
+
 <img src="images/hololens_menu_main.jpg" width="500">
 	
 	Steps:
