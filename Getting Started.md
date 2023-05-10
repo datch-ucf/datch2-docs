@@ -46,6 +46,13 @@
 - Disconnect Points
 	- Grab and swiftly flick a point from one direction to another.
 
+### GPS
+- If using GPS features with DATCH, the Rover and Arduino (with Base) must be connected to power sources prior to running the application:
+	- Rover: Connected to powered-on mobile battery pack via micro-USB to USB cable.
+	- Base: Connected to another power source (such as a laptop) via (blue) USB-A to USB-B cable.
+- The antennas for the Rover and Base should have a clear view of the sky.
+
+
 ## Additional Features
 - For details on the full functionality of DATCH, see the [**DATCH Features List**](/DATCH%20Features%20List.md).
 
@@ -72,6 +79,15 @@
 
 	1. Hold the volume down and power buttons (right side of headset) for 15 seconds
 	2. Wait for the headset to restart
+
+## What if holograms begin to look misaligned? 
+
+- ### Perform Manual Eye Calibration
+	1. Hold hand with palm in view
+	2. Tap the Windows logo that appears on wrist
+	3. After the system menu appears, tap Settings under All Apps
+	4. Tap System > Calibration > Eye Calibration > Run eye calibration
+	5. Follow the prompts for calibration
 	
 ## What if the GPS coordinates are not displaying in the GPS attributes panel?
 

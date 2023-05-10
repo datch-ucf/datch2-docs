@@ -25,6 +25,7 @@ See the [**Deployment Directions**](/DATCH%20Deployment%20Directions.md) page fo
 Here are some useful documentation links:
 - [**Getting Started Guide**](/Getting%20Started.md)
 - [**Features List**](/DATCH%20Features%20List.md)
+- [**Deployment Directions**](/DATCH%20Deployment%20Directions.md)
 
 
 # Community 

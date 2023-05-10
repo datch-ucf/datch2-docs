@@ -18,6 +18,8 @@
 
 
 ## Main Menu
+<img src="images/menu_full.jpg" width="250"> <img src="images/menu_with_dock.gif" width="250"> 
+
 ### Primary Buttons
 
 <img src="images/diagram_main_menu.png" width="500"> 
@@ -47,6 +49,8 @@
 
 <br></br>
 ## Drawing Modes 
+<img src="images/drawing_modes_new_menu.gif" width="500"> 
+
 ### Free Draw
 - Draw unrestricted freehand shapes
 
@@ -85,6 +89,8 @@
 <br></br>
 
 ### *Drawing Attributes Panel*
+<img src="images/line_weight_and_color.gif" width="500"> 
+
 - ### Color Picker
 	- Before drawing, drag finger along the color picker gradient or tap one of the color swatches to select a color for the next drawn line.
 - ### Line Weight Slider
@@ -120,7 +126,7 @@
 	- ### Handedness
 		- Change the menu orientation for left-handed or right-handed use 
 		
-			<img src="images/handedness.gif" width="500"> 
+			<img src="images/handedness_new_menu.gif" width="500"> 
 
 	- ### Theme
 		- Change color palette of application for easier viewing 
@@ -162,7 +168,7 @@
 - ### Log
 	- Add text to a log file (.txt) to be viewed later for future reference.
 
-		<img src="images/log_text_file.gif" width="500"> 
+		<img src="images/improved_log.gif" width="500"> 
 
 			Steps: 
 			1. Tap the Log button
@@ -276,8 +282,10 @@ Create a grid of marker pegs with specific dimensions
 			2. Change the length of the measuring tape by grabbing one of its endpoints; move it by grabbing and dragging it from its center
 
 ### GPS
-- Open GPS Attributes Panel and activate Bluetooth GPS functionality if available (rover and base must be powered on)
-<br></br>
+- Open GPS Attributes Panel and activate GPS functionality if available (rover and base must be powered on)
+<br>
+<img src="images/gps_map_coords_demo.gif" width="500"> 
+
 
 ### *GPS Attributes Panel*
 - ### Map
