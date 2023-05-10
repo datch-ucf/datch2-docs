@@ -243,22 +243,24 @@
 Create a grid of marker pegs with specific dimensions
 
 <img src="images/peg_markers.gif" width="500"> 
+<img src="images/peg_grid_panel_revised.png" width="500"> 
 
 	Steps:
 	1. Tap the Peg Grid button
-	2. Tap the Dimensions button and enter the desired number of pegs on each row and column (Format is "# x #").
-	3. Tap the Create button to generate a grid in space
-	4. Edit the position and rotation of the peg grid using manipulation handles
-	5. Touch a peg in the grid to mark it for future reference (indicated by a change in color)
+	2. Tap the up or down arrow buttons on either side of the Length or Width sections to enter the desired number of pegs on each row and column.
+	3. Tap the '+' or '-' buttons on either side of the Peg Spacing section to adjust the distance between each peg within the selected dimensions. 
+	4. Tap the Create button to generate a grid in space
+	5. Edit the position and rotation of the peg grid using manipulation handles
+	6. Touch a peg in the grid to mark it for future reference (indicated by a change in color)
 
 ### *Peg Grid Attributes Panel*
-- ### Grid Dimensions
-	- Tap to enter the number of rows and columns in a grid (preview grid will display first)
-- ### Rows Spacing Slider
-	- Drag to set the distance between each row in a grid
-- ### Cols Spacing Slider
-	- Drag to set the distance between each column in a grid
-- ### Create Grid
+- ### Length Buttons
+	- Tap either button to increase or decrease the length of the grid
+- ### Width Buttons
+	- Tap either button to increase or decrease the width of the grid
+- ### Peg Spacing Buttons
+	- Tap either button to set the distance between each peg in a grid
+- ### Create Grid Button
 	- When grid dimensions are set, create a grid in place of the preview grid
 
 <br></br>
